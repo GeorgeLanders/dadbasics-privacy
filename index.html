@@ -52,20 +52,9 @@
 </table>
 <p>Deleting the app deletes all of it. There is no copy anywhere else.</p>
 <h2>The optional AI feature</h2>
-<p>Dad Basics has an optional Ask screen. It is <strong>off until you turn it on</strong>, and it requires a key that you supply yourself.</p>
-<p>When you use it:</p>
-<ul>
-<li>The question you type, together with your child profile (name and age, if you</li>
-</ul>
-<p>have set one), is sent <strong>directly from your device to the AI provider you chose</strong>. It does not pass through us, because we run no server.</p>
-<ul>
-<li>Your provider key is stored only on your device and is sent only to that</li>
-</ul>
-<p>provider.</p>
-<ul>
-<li>The provider&#x27;s own privacy policy and terms govern what happens to your</li>
-</ul>
-<p>question once it reaches them. We have no control over that and do not see it.</p>
+<p>Dad Basics has an optional Ask screen. It is off until you turn it on, and it works in either of two ways.</p>
+<p><strong>Using Dad Basics AI (no key).</strong> Your question, together with your child profile (name and age, if you have set one), is sent from your device to our Cloudflare relay. The relay passes it to Google Gemini and returns the answer. The relay is configured to log only the provider name and the response status - never the question, never the answer, never a key. This path is limited to 20 questions a month.</p>
+<p><strong>Using your own Google Gemini key.</strong> The question is sent <strong>directly from your device to Google</strong>. It does not pass through us at all. Your key is stored only on your device and is sent only to Google. Google&#x27;s own privacy policy and terms govern what happens to your question once it reaches them; we have no control over that and do not see it.</p>
 <p>Every other feature - all 20 lessons, all checklists, progress tracking - works with no key, no account and no network connection at all.</p>
 <h2>Children&#x27;s privacy</h2>
 <p>The app is intended for parents and carers, not for children to use directly. Child profiles hold a first name and an age only. We do not collect information from children, and because we collect nothing from anyone, there is nothing for us to hold.</p>
